@@ -1,4 +1,5 @@
 import MissPlete from '../src/MissPlete.js';
+import '../src/miss-plete-example.css';
 
 const options = [
   ["Afghanistan", "AF"],
@@ -254,5 +255,6 @@ const options = [
 
 new MissPlete({
   input: document.querySelector('input[name="country"]'),
-  options: options
+  options: options,
+  className: 'miss-plete'
 });

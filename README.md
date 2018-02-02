@@ -34,8 +34,11 @@ new MissPlete({
   // Each subarray contains an option and all its synonyms
   options: [["Barcelona", "BCN"], ["San Francisco", "SF"]],
 
+  // The class name for the dropdown. Ex. 'miss-plete'
+  className: 'miss-plete',
+
   // OPTIONAL
-  // It must return an object with at least the properties `score` and  
+  // It must return an object with at least the properties `score` and
   // `displayValue`.
   // Default is a Jaro–Winkler similarity function.
   scoreFn: (inputValue, optionSynonyms) => {
@@ -54,7 +57,7 @@ new MissPlete({
     const li = scoredOption.score < 0.5 ? null : document.createElement("li");
     li && li.appendChild(document.createTextNode(scoredOption.displayValue));
     return li;
-  }  
+  }
 });
 ```
 

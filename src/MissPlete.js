@@ -1,6 +1,5 @@
 import jaroWinkler from './jaroWinkler.js';
 import memoize from './memoize.js';
-import './miss-plete.css';
 
 class MissPlete {
 
@@ -10,7 +9,7 @@ class MissPlete {
     scoreFn = memoize(MissPlete.scoreFn),
     listItemFn = MissPlete.listItemFn
   }) {
-    Object.assign(this, { input, options, scoreFn, listItemFn });
+    Object.assign(this, { input, options, className, scoreFn, listItemFn });
 
     this.scoredOptions = null;
     this.container = null;
@@ -141,7 +140,7 @@ class MissPlete {
 
       // See CSS to understand why the <ul> has to be wrapped in a <div>
       const newContainer = document.createElement("div");
-      newContainer.className = 'miss-plete';
+      newContainer.className = this.className;
       newContainer.appendChild(newUl);
 
       // Inserts the dropdown just after the <input> element
