@@ -1,12 +1,12 @@
 {
   "name": "miss-plete",
   "version": "1.4.3",
-  "homepage": "http://xavi.github.io/miss-plete/",
+  "homepage": "https://github.com/devowhippit/miss-plete/",
   "license": "MIT",
-  "author": "Xavi Caballé (http://xavi.caballe.pro/)",
+  "author": "Forked from Xavi Caballé (http://xavi.caballe.pro/)",
   "repository": {
     "type": "git",
-    "url": "https://github.com/xavi/miss-plete.git"
+    "url": "https://github.com/devowhippit/miss-plete.git"
   },
   "main": "dist/bundle.js",
   "devDependencies": {
