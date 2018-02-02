@@ -6,6 +6,7 @@ class MissPlete {
   constructor({
     input,
     options,
+    className,
     scoreFn = memoize(MissPlete.scoreFn),
     listItemFn = MissPlete.listItemFn
   }) {
