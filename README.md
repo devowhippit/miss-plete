@@ -20,7 +20,7 @@ Less than 220 lines of code. No dependencies.
 
 # Installation
 
-    npm install miss-plete --save
+    npm install miss-plete-js --save
 
 The library is published to the npm registry transpiled to ES5 and UMD, so it can be used in ES5 ([`examples/es5/`](https://github.com/xavi/miss-plete/tree/gh-pages/examples/es5)) and ES6 ([`examples/es6/`](https://github.com/xavi/miss-plete/tree/gh-pages/examples/es6)).
 
