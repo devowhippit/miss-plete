@@ -29,6 +29,7 @@ The library is published to the npm registry transpiled to ES5 and UMD, so it ca
 
 ```javascript
 import MissPlete from './MissPlete.js';
+import './miss-plete-example.css';
 
 new MissPlete({
   input: document.querySelector('input[name="city"]'),
