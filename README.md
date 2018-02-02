@@ -1,5 +1,7 @@
 # MissPlete
 
+This repository is forked from the original to quickly integrate with out styling.
+
 MissPlete is a misspelling-tolerant autocomplete written in ECMAScript 2015, aka
 ECMAScript 6 (ES6).
 
